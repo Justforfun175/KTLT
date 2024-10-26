@@ -2,16 +2,16 @@
 using namespace std;
 
 void themvector(vector<int> &a, int &x) {
-    a.push_back(x); // dua gi� tr? x v�o cu?i vector a.
+    a.push_back(x); // đưa giá trị vào cuối vector a.
 }
 void sxtangdan(vector<int> &a) {
-    sort(a.begin(), a.end()); // s?p x?p c�c gi� tr? trong vector a tang d?n.
+    sort(a.begin(), a.end()); // sắp xếp các giá trị trong vector a tăng dần.
 }
 void daonguoc(vector<int> &a) {
-    reverse(a.begin(), a.end()); // d?o ngu?c vector l?i.V� d? vector a ={1,2,3} th�nh vector a={3,2,1}.
+    reverse(a.begin(), a.end()); // đảo ngược vector lại.Ví dụ vector a ={1,2,3} thành vector a={3,2,1}.
 }
 void kichso(vector<int> &a) {
-    cout << a.size() << " "; // in ra s? lu?ng c�c ph?n t? trong vector a.
+    cout << a.size() << " "; // in ra số lượng các phần tử trong vector a.
 }
 void invector(vector<int> &a) {
     for(unsigned int i = 0; i < a.size(); i++) {
@@ -19,7 +19,7 @@ void invector(vector<int> &a) {
     }
 }
 void sxgiamdan(vector<int> &a) {
-    sort(a.begin(), a.end(), greater<int>()); // s?p x?p c�c gi� tr? trong vector a gi?m d?n.
+    sort(a.begin(), a.end(), greater<int>()); // sắp xếp các giá trị trong vector a giảm dần.
 }
 
 int main() {
